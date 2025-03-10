@@ -2,13 +2,10 @@
 
 int main() {
 
-    printf("Desafio: Nível Novato\n\n");
-
     // Declaração de variáveis para a Carta 1 e Carta 2
     char estado1, estado2;  // Var tipo char para armazenar caracteres.
     char codigo_carta1[4], codigo_carta2[4];    //Var tipo char; Arrays de caracteres (4 caracteres).
     char nome_cidade1[40], nome_cidade2[40];    
-    //int populacao1, populacao2;
     unsigned long int populacao1, populacao2;
     int num_pontos_turisticos1, num_pontos_turisticos2;    //Var do tipo int para armazenar números inteiros.
     float area1, area2;    //Variáveis do tipo float para armazenar números reais.
