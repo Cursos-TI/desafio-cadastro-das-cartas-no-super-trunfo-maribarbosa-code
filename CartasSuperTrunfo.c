@@ -50,7 +50,7 @@ int main() {
 
     pib_perCapta1 = (pib1 * 1000000000) / (float) populacao1; // Convertendo o PIB de bilhões para reais antes de calcular o PIB per capita
     densidade_pop1 = (float) populacao1 / area1;    // Cálculo da densidade populacional.
-    super_poder1 = populacao1 + area1 + pib1 + num_pontos_turisticos1 + pib_perCapta1 + (1 / densidade_pop1);
+    super_poder1 = (float) populacao1 + area1 + pib1 + (float) num_pontos_turisticos1 + pib_perCapta1 + (1 / densidade_pop1);
 
     // Solicitação de dados para a segunda carta.
     printf("\n==============================================================\n");
@@ -87,7 +87,7 @@ int main() {
 
     pib_perCapta2 = (pib2 * 1000000000) / (float) populacao2;  // Cálculo do PIB per Capta; Convertendo o PIB de bilhões para reais antes de calcular o PIB per capita.
     densidade_pop2 = (float) populacao2 / area2;    // Cálculo da densidade populacional.
-    super_poder2 = populacao2 + area2 + pib2 + num_pontos_turisticos2 + pib_perCapta2 + (1 / densidade_pop2);   // Soma de todos os atributos numéricos da carta.
+    super_poder2 = (float) populacao2 + area2 + pib2 + (float) num_pontos_turisticos2 + pib_perCapta2 + (1 / densidade_pop2);   // Soma de todos os atributos numéricos da carta.
     
     // Exibição dos dados da Carta 1.
     printf("\n==============================================================\n");
